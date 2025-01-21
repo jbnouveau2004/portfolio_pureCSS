@@ -15,7 +15,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 24px;
-    font-family: sans-serif;
+    font-family: roboto, sans-serif;
 }
 
 /*************************HEADER*****************************************/
@@ -142,6 +142,7 @@ section.titre{
 .accroche{
     background-color: var(--background_sections_accroche);
     opacity: var(--opacity_backround_sections_accroche);
+    font-family: PlayWrite, sans-serif;
 }
 
 .accroche ul{
@@ -156,6 +157,14 @@ section.titre{
 .accroche li::before{
     content: '✔';
     margin-right: 0.25em;
+}
+
+.signature{
+    display: flex;
+    justify-content: end;
+    margin-top: 1em;
+    font-family: Signature, sans-serif;
+    font-size: 2em;
 }
 
 /* partie technos */
@@ -224,6 +233,7 @@ section.titre{
 details{
     margin-bottom: 1em;
     background-color: var(--background_details);
+    font-family: Imprime, sans-serif;
 }
 
 summary{
@@ -231,6 +241,7 @@ summary{
     font-size: 1.5em;
     cursor: pointer;
     background-color: var(--background_details_titre);
+    font-family: roboto, sans-serif;
 }
 
 details li{
@@ -251,6 +262,7 @@ details[open]{
 .blog .card{
     padding: 20px;
     box-shadow: 0.4em 0.4em 0.4em var(--ombre_cards_blog);
+    font-family: serif;
 }
 
 .blog .card:nth-of-type(n){

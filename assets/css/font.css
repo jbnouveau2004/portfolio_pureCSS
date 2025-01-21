@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'PlayWrite';
+    src: url('../fonts/PlaywriteVN-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /*police alternative le temps du chargement de la police*/
+}
+
+@font-face {
+    font-family: 'Signature';
+    src: url('../fonts/High_Spirited.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /*police alternative le temps du chargement de la police*/
+}
+
+@font-face {
+    font-family: 'Imprime';
+    src: url('../fonts/Jersey15-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /*police alternative le temps du chargement de la police*/
+}
