@@ -35,7 +35,6 @@ header{
     justify-content: center;
     align-items: center;
     color: var(--traits_bouton_burger);
-    border: 1px solid var(--traits_bouton_burger);
     width: 2em;
     height: 2em;
     position: absolute;
@@ -49,6 +48,7 @@ header{
 
 .burger_ouvert:hover, .burger_ferme:hover{
     background-color: var(--fond_bouton_burger_hover);
+    box-shadow: none;
 }
 
 #menu:target{
