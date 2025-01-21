@@ -1,0 +1,189 @@
+.typewriter{
+    display: inline-block;
+}
+
+.typewriter>div>p::after{
+    content: '';
+    display: block;
+    overflow: hidden;
+    font-family: monospace; /* chaque lettre fait le même espace */
+    color: var(--titre);
+    margin-inline: auto; /* pour centrer en p les caractères au fur et à mesure */
+    white-space: nowrap; /* le texte n'est pas coupé */
+    /*border-right: 1px solid;*/ /* le curseur */
+    width: 0;
+    animation: writer 15s linear infinite;
+}
+
+@keyframes writer{
+    0%{
+        content: var(--premier);
+        width: 0;
+    }
+    20%{
+        content: var(--premier);
+        width: 100%;
+    }
+    40%{
+        content: var(--premier);
+        width: 100%;
+    }
+    44.999%{
+        content: var(--premier);
+        width: var(--calc_1);
+    }
+    45%{
+        content: var(--deuxieme);
+        width: var(--calc_2);
+    }
+    50%{
+        content: var(--deuxieme);
+        width: 100%;
+    }
+    70%{
+        content: var(--deuxieme);
+        width: 100%;        
+    }
+    74.999%{
+        content: var(--deuxieme);
+        width: var(--calc_2);
+    }
+    75%{
+        content: var(--troisieme);
+        width: var(--calc_3);
+    }
+    80%{
+        content: var(--troisieme);
+        width: 100%;
+    }
+    100%{
+        content: var(--troisieme);
+        width: 100%;
+    }
+
+    /* Clignotement du curseur */
+    0%{
+        border-right: 1px solid;
+    }
+    2.5%{
+        border: none;
+    }
+    5%{
+        border-right: 1px solid;
+    }
+    7.5%{
+        border: none;
+    }
+    10%{
+        border-right: 1px solid;
+    }
+    12.5%{
+        border: none;
+    }
+    15%{
+        border-right: 1px solid;
+    }
+    17.5%{
+        border: none;
+    }
+    20%{
+        border-right: 1px solid;
+    }
+    22.5%{
+        border: none;
+    }
+    25%{
+        border-right: 1px solid;
+    }
+    27.5%{
+        border: none;
+    }
+    30%{
+        border-right: 1px solid;
+    }
+    32.5%{
+        border: none;
+    }
+    35%{
+        border-right: 1px solid;
+    }
+    37.5%{
+        border: none;
+    }
+    40%{
+        border-right: 1px solid;
+    }
+    42.5%{
+        border: none;
+    }
+    45%{
+        border-right: 1px solid;
+    }
+    47.5%{
+        border: none;
+    }
+    50%{
+        border-right: 1px solid;
+    }
+    52.5%{
+        border: none;
+    }
+    55%{
+        border-right: 1px solid;
+    }
+    57.5%{
+        border: none;
+    }
+    60%{
+        border-right: 1px solid;
+    }
+    62.5%{
+        border: none;
+    }
+    65%{
+        border-right: 1px solid;
+    }
+    67.5%{
+        border: none;
+    }
+    70%{
+        border-right: 1px solid;
+    }
+    72.5%{
+        border: none;
+    }
+    75%{
+        border-right: 1px solid;
+    }
+    77.5%{
+        border: none;
+    }
+    80%{
+        border-right: 1px solid;
+    }
+    82.5%{
+        border: none;
+    }
+    85%{
+        border-right: 1px solid;
+    }
+    87.5%{
+        border: none;
+    }
+    90%{
+        border-right: 1px solid;
+    }
+    92.5%{
+        border: none;
+    }
+    95%{
+        border-right: 1px solid;
+    }
+    97.5%{
+        border: none;
+    }
+    100%{
+        border-right: 1px solid;
+    }
+
+}

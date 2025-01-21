@@ -1,0 +1,59 @@
+:root{
+    --barre_progression: blue;
+    --fond_scrollbar: yellowgreen;
+    --barre_scrollbar: green;
+    --largeur_max: 1200px; /* Largeur maximum de la page */
+
+    --fond_menu: grey;
+    --liens_menu: white;
+
+    --ombre_typewriter: black;
+
+    --background_sections: white;
+    --chapitres: red;
+    --ombre_chapitres: black;
+    --traits_sous_chapitres: blue;
+    --ombre_traits_sous_chapitres: black;
+
+    --ombre_img_technos: black;
+
+    --ombres_cards_realisation: black;
+    --ombres_images_hover_cards_realisation: black;
+    --background_card_realisation: white;
+
+    --background_details: grey;
+    --background_details_titre: green;
+    --ombre_details_open: black;
+
+    --ombre_cards_blog: black;
+    --font_boutons_cards_blog: black;
+    --background_boutons_cards_blog: aqua;
+    --font_boutons_cards_blog_hover: black;
+    --background_boutons_cards_blog_hover: yellow;
+    --ombre_boutons_cards_blog_hover: grey;
+    --background_cards_blog_impaire: grey;
+    --background_cards_blog_paire: rgb(170, 170, 170);
+
+    --ombre_cv: black;
+
+    --liens_contact: black;
+    --liens_contact_hover: grey;
+    --ombre_liens_contact: white;
+
+    --fond_footer: grey;
+    --ombre_logos_reseaux: white;
+
+    /***********Titre déroulant***********************/
+    /* --nb_caracteres_commun: 15; */
+    --premier: 'Développeur WEB Front-End';
+    /* --nb_caracteres_premier: 25; */
+    --deuxieme: 'Développeur WEB Back-End';
+    /* --nb_caracteres_deuxieme: 24; */
+    --troisieme: 'Développeur WEB Full-Stack';
+    /* --nb_caracteres_troisieme: 26; */
+    /* % du nb commun sur nb total du texte */
+    --calc_1 : 60%;
+    --calc_2 : 62.5%;
+    --calc_3 : 57.6923%;
+    --titre: green;
+}

@@ -1,0 +1,13 @@
+body::-webkit-scrollbar{
+    width: 24px;
+    background-color: var(--fond_scrollbar);
+  }
+  
+  body::-webkit-scrollbar-thumb{
+    border-radius: 12px;
+    background-color: var(--barre_scrollbar);
+    border-left: 5px solid var(--fond_scrollbar);
+    border-right: 4px solid var(--fond_scrollbar);
+    border-top: 4px solid var(--fond_scrollbar);
+    border-bottom: 4px solid var(--fond_scrollbar);
+  }

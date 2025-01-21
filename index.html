@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="author" content="Jean-Baptiste STORTI">
+    <meta name="description" content="Bienvenue dans mon site one-page entièrement en CSS. Vous y trouverez quelques-une de mes réalisations.">
+
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:type" content="Article">
+    <meta property="og:title" content="Un titre de pas plus de 65 caractères">
+    <meta property="og:description" content="Bienvenue dans mon site one-page entièrement en CSS. Vous y trouverez quelques-une de mes réalisations.">
+    <meta property="og:url" content="http://www.onepage.jbstorti.fr">
+    <meta property="og:image" content="http://www.onepage.jbstorti.fr/assets/img/logo.gif">
+    <meta property="og:site_name" content="Portfolio one-page"> 
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@jbstorti">
+    <meta name="twitter:title" content="Mon Portfolio au format one page pure CSS">
+    <meta name="twitter:description" content="Bienvenue dans mon site one-page entièrement en CSS. Vous y trouverez quelques-une de mes réalisations.">
+    <meta name="twitter:creator" content="@Storti">
+    <meta name="twitter:image:src" content="http://www.onepage.jbstorti.fr/assets/img/logo.gif"> 
+
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/progressbar.css">
+    <link rel="stylesheet" href="assets/css/scrollbar.css">
+    <link rel="stylesheet" href="assets/css/typewriter.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <title>Mon portfolio pure CSS</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <img src="assets/img/logo.gif" alt="Logo du site">
+            <nav>
+                <a href="#">Accueil</a>
+                <a href="#technos">Technos</a>
+                <a href="#realisations">Réalisations</a>
+                <a href="#passe">Expériences</a>
+                <a href="#blog">Blog</a>
+                <a href="#cv">CV</a>
+                <a href="#contact">Contact</a>
+            </nav>
+                
+        </div>
+        <div class="barre"></div>
+    </header>
+
+    <main>
+        <section class="titre">
+            <div class="typewriter">
+                <div>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="accroche">
+            Actuellement sur un projet destiné au Pôle culturel de la ville de Luxeuil-les-Bains, ma mission, développer un site d'évènements culturels. Toutes les photos, videos, descriptions, charte graphique de la ville et des évènements, etc... doivent être modifiables à tout moment par la mairie grâce à un back-office sécurisé. Le projet sera propulsé avec Symfony, Bootstrap, Sass et le reste, le tout de manière responsive.
+            <ul>
+                <li>Motivé et passionné</li>
+                <li>100% autonome et autodidacte</li>
+                <li>En veille permanente sur les technologies utilisés</li>
+            </ul>
+        </section>
+
+        <section class="technos">
+            <h1 id="technos">Technologies utilisés</h1>
+            <hr>
+            <div class="logos">
+                <img src="assets/img/sass.png" alt="Logo SASS">
+                <img src="assets/img/bootstrap.png" alt="Logo Bootstrap">
+                <img src="assets/img/php.png" alt="Logo PHP">
+                <img src="assets/img/symfony.png" alt="Logo Symfony">
+            </div>
+        </section>
+
+        <section class="projets">
+            <h1 id="realisations">Réalisations</h1>
+            <hr>
+            <div class="presentation">
+                <div class="card">
+                    <a href="https://portfolio.jbstorti.fr/projets/village3d" target="_blank">
+                        <img src="assets/img/village3d.jpg" alt="Image de présentation 18">
+                    </a>
+                    <div class="titre">Faux village 3D</div>
+                    <div class="description">En pure CSS, immite de la 3D grâce à la perspective</div>
+                </div>
+                <div class="card">
+                    <a href="https://poleculturel.jbstorti.fr" target="_blank">
+                        <img src="assets/img/poleculturel.jpg" alt="Image de présentation 17">
+                    </a>
+                    <div class="titre">Pôle culturel</div>
+                    <div class="description">Développé avec Symfony 6 pour le Pôle culturel de Luxeuil-les-Bains. Pour l'administration, user:jury mdp:demo, enjoy</div>
+                </div>
+                <div class="card">
+                    <a href="https://blog.jbstorti.fr" target="_blank">
+                        <img src="assets/img/blog.jpg" alt="Image de présentation 16">
+                    </a>
+                    <div class="titre">Blog</div>
+                    <div class="description">Pour tester Symfony 7. Pour l'administration, user:jury mdp:demo, enjoy</div>
+                </div>
+                <div class="card">
+                    <a href="https://portfolio.jbstorti.fr/projets/spaceinvaders" target="_blank">
+                        <img src="assets/img/spaceinvaders1.jpg" alt="Image de présentation 15">
+                    </a>
+                    <div class="titre">Space Invaders</div>
+                    <div class="description">En 2D avec Javascript, un jeu développé pour un peu tester le canvas</div>
+                </div>
+                <div class="card">
+                    <a href="https://portfolio.jbstorti.fr/projets/agence/masuperagence" target="_blank">
+                        <img src="assets/img/agence.jpg" alt="Image de présentation 14">
+                    </a>
+                    <div class="titre">Agence</div>
+                    <div class="description">Premiers essais avec Symfony (toujours en mode développement). Pour l'administration, https://portfolio.jbstorti.fr/projets/agence/masuperagence/admin code: demo demo</div>
+                </div>
+                <div class="card">
+                    <a href="https://portfolio.jbstorti.fr/projets/geocoding" target="_blank">
+                        <img src="assets/img/geocoding1.jpg" alt="Image de présentation 13">
+                    </a>
+                    <div class="titre">Geocoding</div>
+                    <div class="description">Test des APIs GOOGLE avec le Framework Vue.js</div>
+                </div>
+                <div class="card">
+                    <a href="https://portfolio.jbstorti.fr/projets/coupedumonde" target="_blank">
+                        <img src="assets/img/coupedumonde1.jpg" alt="Image de présentation 12">
+                    </a>
+                    <div class="titre">Coupe du monde 2022</div>
+                    <div class="description">Premiers essais avec Wordpress en touchant un peu le code source du CMD</div>
+                </div>
+                <div class="card">
+                    <a href="https://portfolio.jbstorti.fr/projets/allocine" target="_blank">
+                        <img src="assets/img/allocine1.jpg" alt="Image de présentation 11">
+                    </a>
+                    <div class="titre">Allociné</div>
+                    <div class="description">210 films répertoriés avec PHP MVC, caroussel en jb et AJAX avec jQuery. Pour l'administration https://portfolio.jbstorti.fr/projets/allocine/?admin code: jb 1234</div>
+                </div>
+                <div class="card">
+                    <a href="https://portfolio.jbstorti.fr/projets/jadoo" target="_blank">
+                        <img src="assets/img/restojadoo1.jpg" alt="Image de présentation 10">
+                    </a>
+                    <div class="titre">Restaurant Jadoo</div>
+                    <div class="description">Développé à partir d'une maquette Figma, entièrement responsive</div>
+                </div>
+                <div class="card">
+                    <a href="https://portfolio.jbstorti.fr/projets/memes" target="_blank">
+                        <img src="assets/img/memes1.jpg" alt="Image de présentation 9">
+                    </a>
+                    <div class="titre">Générateur de mèmes</div>
+                    <div class="description">Développé avec PHP, enjoy</div>
+                </div>
+                <div class="card">
+                    <a href="https://portfolio.jbstorti.fr/projets/crud2" target="_blank">
+                        <img src="assets/img/crud_php.jpg" alt="Image de présentation 8">
+                    </a>
+                    <div class="titre">Liste de tâches 2</div>
+                    <div class="description">Premiers essais de CRUD en PHP</div>
+                </div>
+                <div class="card">
+                    <a href="https://portfolio.jbstorti.fr/projets/crud1" target="_blank">
+                        <img src="assets/img/crud_js.jpg" alt="Image de présentation 7">
+                    </a>
+                    <div class="titre">Liste de tâches 1</div>
+                    <div class="description">Premiers essais de CRUD en Javazscript</div>
+                </div>
+                <div class="card">
+                    <a href="https://portfolio.jbstorti.fr/projets/cv" target="_blank">
+                        <img src="assets/img/cv1.jpg" alt="Image de présentation 6">
+                    </a>
+                    <div class="titre">Générateur de CV</div>
+                    <div class="description">Tests de TCPDF avec PHP
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="https://portfolio.jbstorti.fr/projets/projeta1" target="_blank">
+                        <img src="assets/img/multiplication.jpg" alt="Image de présentation 5">
+                    </a>
+                    <div class="titre">Tables numériques</div>
+                    <div class="description">Premiers essais basiques de PHP et Bootstrap</div>
+                </div>
+                <div class="card">
+                    <a href="https://portfolio.jbstorti.fr/projets/memory" target="_blank">
+                        <img src="assets/img/memory.jpg" alt="Image de présentation 4">
+                    </a>
+                    <div class="titre">Jeux de mémoire</div>
+                    <div class="description">Premiers essais basiques de Javascript, enjoy</div>
+                </div>
+                <div class="card">
+                    <a href="https://portfolio.jbstorti.fr/projets/projet3" target="_blank">
+                        <img src="assets/img/service_ux_design.jpg" alt="Image de présentation 3">
+                    </a>
+                    <div class="titre">Service UX</div>
+                    <div class="description">Premiers essais basiques de CSS</div>
+                </div>
+                <div class="card">
+                    <a href="https://portfolio.jbstorti.fr/projets/projet2" target="_blank">
+                        <img src="assets/img/blueasy.jpg" alt="Image de présentation 2">
+                    </a>
+                    <div class="titre">Blueasy</div>
+                    <div class="description">Premiers essais basiques d'un site responsive</div>
+                </div>
+                <div class="card">
+                    <a href="https://portfolio.jbstorti.fr/projets/projet1" target="_blank">
+                        <img src="assets/img/zozor.jpg" alt="Image de présentation 1">
+                    </a>
+                    <div class="titre">Zozor</div>
+                    <div class="description">Un site où il a bien fallu commencer quelque part</div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="passe">
+            <h1 id="passe">Expériences</h1>
+            <hr>
+            <details open>
+                <summary>Intégrateur Informatique</summary>
+                <ul>
+                    <li>Kit de serveur blade, serveur video, poste informatique fixe et portable</li>
+                    <li>Participation au projet de renouvellement informatique des agences bancaires</li>
+                </ul>
+                Durant cette fonction, j'ai appris à utliser la plateforme de l'entreprise développée en interne. J'ai donc déployé des OS et des logiciels (Linux et Windows) depuis ce réseau (PXE).
+            </details>
+            <details open>
+                <summary>Technicien électronique</summary>
+                <ul>
+                    <li>Maintenance préventive et curative dans l'asservissement moteur et diverses cartes électroniques</li>
+                    <li>Elaboration de banc de test (analogique et numérique) pour du matériel récurant</li>
+                    <li>Installation et mise à jour de systèmes de géolocalisation</li>
+                    <li>Intégration d'ensemble électronique (système GPS, capteurs et accéléromètres)</li>
+                </ul>
+                Durant cette fonction, j'ai appris le langage C, assembleur et à programmer des composants logiques et séquentiels.
+            </details>
+            <details open>
+                <summary>Développement électronique</summary>
+                <ul>
+                    <li>Test dynamique et climatique de capteur de courant</li>
+                    <li>Simulation et test de cartes électronique de sectionneur électrique</li>
+                </ul>
+                Dans le cadre d'un projet de développement d'un produit éléctrique industriel, j'ai appris à maitriser le logiciel de simulation analogique LTspice et participer à différentes réunions.
+            </details>
+        </section>
+
+        <section class="blog">
+            <h1 id="blog">Mon blog</h1>
+            <hr>
+            <div class="card">
+                <div class="titre">Stratégie Française contre la menace quantique et ses opportunités</div>
+                <div class="resume">Course au chiffrement face à la menace quantique: Quelle stratégie pour la France? Y a-t-il des opportunités à saisir?</div>
+                <a href="https://blog.jbstorti.fr/article1" target="_blank">En savoir plus</a>
+            </div>
+            <div class="card">
+                <div class="titre">JAVA toujours en course</div>
+                <div class="resume">Livraison de Java 19 le 20 septembre 2022, directement téléchargeable chez Oracle. Toujours dans le top 10 des langages.</div>
+                <a href="https://blog.jbstorti.fr/article2" target="_blank">En savoir plus</a>
+            </div>
+            <div class="card">
+                <div class="titre">Première technologie quantique déployée à l'échelle européenne</div>
+                <div class="resume">EuroHPC est une entreprise commune européenne pour le déploiement quantique à travers six sites existants. 17 pays y participent, et prévoit d'autres étapes.</div>
+                <a href="https://blog.jbstorti.fr/article3" target="_blank">En savoir plus</a>
+            </div>
+            <div class="card">
+                <div class="titre">WEB3 contre WEB2</div>
+                <div class="resume">Centralisation, décentralisation, technologies et interactions: WEB3 en guerre contre WEB2, qui en sera le vainqueur?</div>
+                <a href="https://blog.jbstorti.fr/article4" target="_blank">En savoir plus</a>
+            </div>
+            <div class="card">
+                <div class="titre">Google aide des développeurs à utiliser Ethereum</div>
+                <div class="resume">Google Cloud lance le service Blockchain Node Engine pour développer le WEB 3. La première plateforme utilisant la technologie blockchain sera Ethereum.</div>
+                <a href="https://blog.jbstorti.fr/article5" target="_blank">En savoir plus</a>
+            </div>
+            <div class="card">
+                <div class="titre">La France dans le métaverse</div>
+                <div class="resume">Le métaverse, solution magique pour la France d'un point de vue économique et écologique. Les GAFA et autres grands groupes du numérique n'ont qu'a bien se tenir.</div>
+                <a href="https://blog.jbstorti.fr/article6" target="_blank">En savoir plus</a>
+            </div>
+        </section>
+
+        <section class="cv">
+            <h1 id="cv">Mon CV</h1>
+            <hr>
+            <img src="assets/img/cv217.jpg" alt="Mon CV à jour">
+        </section>
+
+        <section class="contact">
+            <h1 id="contact">Contactez-moi</h1>
+            <hr>
+            <a href="https://portfolio.jbstorti.fr/contact.php" target="_blank">Contact en ligne</a>
+            <a href="mailto:jb.storti@gmail.com">Contact depuis votre messagerie</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <p>
+                Jean-Baptiste Storti
+            </p>
+            <p>
+                18 rue Pasteur 70300 Luxeuil-les-Bains
+            </p>
+            <p>
+                Tel: (+33) 6-85-78-85-37
+            </p>
+            <p>
+                <a href="https://github.com/jbnouveau2004" target="_blank"><img src="assets/img/github.png" alt="Logo Github"></a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
