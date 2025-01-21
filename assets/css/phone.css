@@ -1,0 +1,7 @@
+.typewriter{
+    font-size: 24px;   
+}
+
+.presentation{
+    grid-template-columns: 1fr;
+}

@@ -29,16 +29,20 @@ header{
     top: 0;
     right: 0;
     left: 0;
-    opacity: 0.8;
+    opacity: var(--opacity_fond_menu);
     z-index: 1000;
+}
+
+.burger_ouvert, .burger_ferme{
+    display: none;
 }
 
 .menu{
     display: flex;
+    align-items: center;
     height: 100%;
     width: var(--largeur_max);
     background-color: var(--fond_menu);
-
 }
 
 nav{
@@ -59,6 +63,11 @@ nav:hover a:not(:hover){
     opacity: 0.5;
 }
 
+header img{
+    width: 80px;
+    height: 80px;
+}
+
 
 /************************MAIN***********************************/
 
@@ -70,21 +79,15 @@ main{
     align-items: center;
 }
 
-section.titre{
-    width: 800px;
-}
-
-.typewriter{
-    /* font-size: clamp(1em 3vw 48px); */
-    font-size: 48px;
-}
-
 .accroche{
     width: 100%;
 }
 
 .typewriter{
     text-shadow: 0 0 10px var(--ombre_typewriter);
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
 }
 
 .accroche ul{
@@ -107,6 +110,7 @@ section{
     margin-top: 25px;
     margin-bottom: 25px;
     background-color: var(--background_sections);
+    opacity: var(--opacity_backround_sections);
 }
 
 h1{
@@ -188,10 +192,7 @@ hr{
     max-width: 100%;
 }
 
-/* partie passé */
-.passe{
-    width: var(--largeur_max);
-}
+/* partie expériences */
 
 details{
     margin-bottom: 1em;
@@ -205,6 +206,7 @@ summary{
 
 details li{
     transform: translateX(2em);
+    max-width: 80%;
 }
 
 details[open]{
@@ -212,10 +214,6 @@ details[open]{
 }
 
 /* partie blog */
-.blog{
-    width: var(--largeur_max);
-}
-
 .blog .card{
     padding: 20px;
     box-shadow: 10px 10px 10px var(--ombre_cards_blog);
@@ -256,8 +254,6 @@ details[open]{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: var(--largeur_max);
-
 }
 .cv img{
     width: 100%;

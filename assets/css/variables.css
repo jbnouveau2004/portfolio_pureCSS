@@ -5,11 +5,13 @@
     --largeur_max: 1200px; /* Largeur maximum de la page */
 
     --fond_menu: grey;
+    --opacity_fond_menu: 0.8;
     --liens_menu: white;
 
     --ombre_typewriter: black;
 
     --background_sections: white;
+    --opacity_backround_sections: 1;
     --chapitres: red;
     --ombre_chapitres: black;
     --traits_sous_chapitres: blue;

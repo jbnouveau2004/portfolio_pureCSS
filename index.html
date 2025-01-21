@@ -27,13 +27,20 @@
     <link rel="stylesheet" href="assets/css/progressbar.css">
     <link rel="stylesheet" href="assets/css/scrollbar.css">
     <link rel="stylesheet" href="assets/css/typewriter.css">
+
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="assets/css/phone.css">
+    <link rel="stylesheet" media="screen and (min-width: 900px) and (max-width: 1280px)" href="assets/css/tablet.css">
     
     <title>Mon portfolio pure CSS</title>
 </head>
 <body>
     <header>
-        <div class="menu">
+        <a href="#menu"><div class="burger_ferme">=</div></a>
+        <div class="menu" id="menu">
+            <a href="#">
+                <div class="burger_ouvert">X</div>
+            </a>
             <img src="assets/img/logo.gif" alt="Logo du site">
             <nav>
                 <a href="#">Accueil</a>
@@ -44,7 +51,6 @@
                 <a href="#cv">CV</a>
                 <a href="#contact">Contact</a>
             </nav>
-                
         </div>
         <div class="barre"></div>
     </header>

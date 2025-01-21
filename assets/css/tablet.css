@@ -1,0 +1,86 @@
+/*************************HEADER*****************************************/
+
+header{
+    display: block;
+    min-height: 100px;
+    padding: 10px 100px 10px 10px;
+    background: var(--fond_menu);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: auto;
+    opacity: var(--opacity_fond_menu);
+    z-index: 1000;
+}
+
+.burger_ouvert, .burger_ferme{
+    /* display: flex; */
+    display: none;
+    background-color: aqua;
+    line-height: 48px;
+    font-size: 48px;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-50%) translateY(50%);
+}
+
+.burger_ferme, .burger_ouvert{
+    display: flex;
+}
+
+#menu:target{
+    display: flex;
+}
+
+/* .burger_ferme:hover + .burger_ouvert{
+    display: flex;
+} */
+
+.menu{
+    /* display: flex; */
+    display: none;
+    gap: 10px;
+    width: auto;
+    background: none;
+    height: 200px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--liens_menu);
+}
+
+nav:hover a:not(:hover){
+    opacity: 0.5;
+}
+
+header img{
+    /* margin-left: 25px; */
+    width: 80px;
+    height: 80px;
+}
+
+/*************************Le reste***********************/
+
+.typewriter{
+    font-size: 36px;   
+}
+
+.presentation{
+    grid-template-columns: 1fr 1fr;
+}
