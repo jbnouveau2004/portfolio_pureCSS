@@ -274,14 +274,15 @@ details[open]{
     padding: 0.2em 0.4em 1.5em;
     border-radius: 0.4em;
     background-color: var(--background_boutons_cards_blog);
+    box-shadow: 0 0 0.4em var(--ombre_boutons_cards_blog) inset;
     transition: all 0.2s;
 }
 
 .blog .card a:hover{
     color: var(--font_boutons_cards_blog_hover);
     background-color: var(--background_boutons_cards_blog_hover);
-    box-shadow: 0 0 0.4em var(--ombre_boutons_cards_blog_hover);
-    transform: scale(1.02);
+    box-shadow: none;
+    transform: scale(0.95);
 }
 
 /* partie CV */
