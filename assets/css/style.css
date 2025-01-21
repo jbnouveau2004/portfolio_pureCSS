@@ -79,34 +79,9 @@ main{
     align-items: center;
 }
 
-.accroche{
-    width: 100%;
-}
-
-.typewriter{
-    text-shadow: 0 0 10px var(--ombre_typewriter);
-    font-size: 48px;
-    display: flex;
-    justify-content: center;
-}
-
-.accroche ul{
-    padding-left: 50px;
-    padding-top: 1em;
-}
-
-.accroche li{
-    list-style-type: none;
-}
-
-.accroche li::before{
-    content: '✔';
-    margin-right: 6px;
-}
-
 section{
     max-width: var(--largeur_max);
-    padding: 75px 50px 75px;
+    padding: 100px 50px 100px;
     margin-top: 25px;
     margin-bottom: 25px;
     background-color: var(--background_sections);
@@ -150,7 +125,44 @@ hr{
     ;
 }
 
+/* partie accueil */
+section.titre{
+    background-color: var(--background_sections_titre);
+    opacity: var(--opacity_backround_sections_titre);
+}
+
+.typewriter{
+    text-shadow: 0 0 10px var(--ombre_typewriter);
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.accroche{
+    background-color: var(--background_sections_accroche);
+    opacity: var(--opacity_backround_sections_accroche);
+}
+
+.accroche ul{
+    padding-left: 50px;
+    padding-top: 1em;
+}
+
+.accroche li{
+    list-style-type: none;
+}
+
+.accroche li::before{
+    content: '✔';
+    margin-right: 6px;
+}
+
 /* partie technos */
+.technos{
+    background-color: var(--background_sections_technos);
+    opacity: var(--opacity_backround_sections_technos);
+}
+
 .logos{
     display: flex;
     justify-content: center;
@@ -163,6 +175,11 @@ hr{
 }
 
 /* partie réalisations */
+.projets{
+    background-color: var(--background_sections_projets);
+    opacity: var(--opacity_backround_sections_projets);
+}
+
 .presentation{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -193,6 +210,10 @@ hr{
 }
 
 /* partie expériences */
+.passe{
+    background-color: var(--background_sections_passe);
+    opacity: var(--opacity_backround_sections_passe);
+}
 
 details{
     margin-bottom: 1em;
@@ -214,6 +235,11 @@ details[open]{
 }
 
 /* partie blog */
+.blog{
+    background-color: var(--background_sections_blog);
+    opacity: var(--opacity_backround_sections_blog);
+}
+
 .blog .card{
     padding: 20px;
     box-shadow: 10px 10px 10px var(--ombre_cards_blog);
@@ -251,6 +277,8 @@ details[open]{
 
 /* partie CV */
 .cv{
+    background-color: var(--background_sections_cv);
+    opacity: var(--opacity_backround_sections_cv);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -262,6 +290,8 @@ details[open]{
 
 /* partie contact */
 .contact{
+    background-color: var(--background_sections_contact);
+    opacity: var(--opacity_backround_sections_contact);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -290,7 +320,6 @@ details[open]{
 }
 
 /************************FOOTER***********************************/
-
 footer{
     display: flex;
     justify-content: center;
