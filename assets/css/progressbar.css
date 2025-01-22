@@ -1,25 +1,25 @@
 .barre{
-    position: fixed;
-    left: 0;
-    top: 100px;
-    height: 10px;
-    width: 100vw;
-    z-index: 1000;
-    background: linear-gradient(to right, var(--barre_progression) 100%, rgba(255, 255, 255, 0) 100%);
-    background-repeat: no-repeat;
-    /* background-size: 0; */
-    transform-origin: left;
-    animation: scroll linear;
-    animation-timeline: scroll();
-    animation-range-start: cover 0;
-    animation-range-end: cover 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 10px;
+  width: 100vw;
+  z-index: 1001;
+  background: linear-gradient(to right, var(--barre_progression) 100%, rgba(255, 255, 255, 0) 100%);
+  background-repeat: no-repeat;
+  /* background-size: 0; */
+  transform-origin: left;
+  animation: scroll linear;
+  animation-timeline: scroll();
+  animation-range-start: cover 0;
+  animation-range-end: cover 100%;
   }
 
-  @keyframes scroll{
-    from{
-      background-size: 0 10px;
-    }
-    to{
-      background-size: 100vw 10px;
-    }
+@keyframes scroll{
+  from{
+    background-size: 0 10px;
   }
+  to{
+    background-size: 100vw 10px;
+  }
+}

@@ -1,30 +1,32 @@
 :root{
-    --barre_progression: blue;
-    --fond_scrollbar: yellowgreen;
-    --barre_scrollbar: green;
+    --barre_progression: #75B09C;
+    --fond_scrollbar: #7c8ea2;
+    --barre_scrollbar: #465362;
 
     /****************Menu****************************/
-    --fond_menu: grey; /* menu burger inclus */
-    --opacity_fond_menu: 0.8;
+    --background_menu: #7c8ea2; /* menu burger inclus */
+    --opacity_background_menu: 0.8;
     --liens_menu: white;
 
     /*****************Menu Burger*********************/
-    --traits_bouton_burger: red;
-    --fond_bouton_burger: aqua;
-    --fond_bouton_burger_hover: blue;
-    --opacity_fond_menu_burger: 1;
+    --ombre_interne_bouton_burger: black;
+    --ombre_externe_bouton_burger: white;
+    --font_bouton_burger: white;
+    --background_bouton_burger: #967522;
+    --background_bouton_burger_hover: #c89c2d;
+    --opacity_background_menu_burger: 0.8;
 
     /*************Titres de chapitre des sections********/
-    --chapitres: red;
-    --ombre_chapitres: black;
-    --traits_sous_chapitres: blue;
-    --ombre_traits_sous_chapitres: black;
+    --chapitres: #66101F;
+    --ombre_chapitres: white;
+    --traits_sous_chapitres: #66101F;
+    --ombre_traits_sous_chapitres: white;
     --largeur_max: 1200px; /* Largeur maximum de la page */
 
     /**********************Accueil***********************/
-    --background_sections_titre: white;
+    --background_sections_titre: rgba(255, 255, 255, 0);
     --opacity_backround_sections_titre: 1;
-    --background_sections_accroche: white;
+    --background_sections_accroche: #F2F8F6;
     --opacity_backround_sections_accroche: 1;
     /* --nb_caracteres_commun: 15; */
     --premier: 'Développeur WEB Front-End';
@@ -37,54 +39,56 @@
     --calc_1 : 60%;
     --calc_2 : 62.5%;
     --calc_3 : 57.6923%;
-    --titre: green;
-    --typewriter: white;
-    --ombre_typewriter: black;
+    --titre_typewriter: #3C685A;
+    --ombre_titre_typewriter: #a4cbbf;
 
     /********************Technologie*******************/
-    --background_sections_technos: white;
+    --background_sections_technos: rgba(255, 255, 255, 0);
     --opacity_backround_sections_technos: 1;
     --ombre_img_technos: black;
 
     /********************Réalisations********************/
-    --background_sections_projets: white;
+    --background_sections_projets: rgba(255, 255, 255, 0);
     --opacity_backround_sections_projets: 1;
     --ombres_cards_realisation: black;
     --ombres_images_hover_cards_realisation: black;
     --background_card_realisation: white;
 
     /****************Expériences************************/
-    --background_sections_passe: white;
+    --background_sections_passe: rgba(255, 255, 255, 0);
     --opacity_backround_sections_passe: 1;
-    --background_details: grey;
-    --background_details_titre: green;
+    --background_details: #7C8EA2;
+    --background_details_titre: #437564;
     --ombre_details_open: black;
 
     /*******************Mon Blog************************/
-    --background_sections_blog: white;
+    --background_sections_blog: rgba(255, 255, 255, 0);
     --opacity_backround_sections_blog: 1;
     --ombre_cards_blog: black;
-    --font_boutons_cards_blog: black;
-    --background_boutons_cards_blog: aqua;
-    --font_boutons_cards_blog_hover: black;
-    --background_boutons_cards_blog_hover: yellow;
-    --ombre_boutons_cards_blog: grey;
-    --background_cards_blog_impaire: grey;
-    --background_cards_blog_paire: rgb(170, 170, 170);
+    --font_boutons_cards_blog: white;
+    --font_boutons_cards_blog_hover: white;
+    --background_boutons_cards_blog: #967522;
+    --background_boutons_cards_blog_hover: #c89c2d;
+    --ombre_boutons_cards_blog: black;
+    --background_cards_blog_impaire: #5d6f83;
+    --background_cards_blog_paire: #7C8EA2;
 
     /*********************CV***************************/
-    --background_sections_cv: white;
-    --opacity_backround_sections_cv: 1;
+    --background_sections_cv: rgba(255, 255, 255, 0);
+    --opacity_background_sections_cv: 1;
     --ombre_cv: black;
 
     /*********************Contact**********************/
     --background_sections_contact: white;
-    --opacity_backround_sections_contact: 1;
+    --opacity_background_sections_contact: 0.8;
     --liens_contact: black;
-    --liens_contact_hover: grey;
+    --liens_contact_hover: #7c8ea2;
     --ombre_liens_contact: white;
 
     /**********************Footer***********************/
-    --fond_footer: grey;
+    --background_footer: #7c8ea2;
+    --opacity_background_footer: 1;
     --ombre_logos_reseaux: white;
 }
+
+/* https://coolors.co/66101f-967522-f2f8f6-16697a-5d6f83 */

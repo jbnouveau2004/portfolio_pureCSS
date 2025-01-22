@@ -7,7 +7,6 @@
     display: block;
     overflow: hidden;
     font-family: monospace; /* chaque lettre fait le même espace */
-    color: var(--titre);
     margin-inline: auto; /* pour centrer en p les caractères au fur et à mesure */
     white-space: nowrap; /* le texte n'est pas coupé */
     /*border-right: 1px solid;*/ /* le curseur */

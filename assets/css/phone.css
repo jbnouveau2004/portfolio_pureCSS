@@ -7,10 +7,6 @@ body{
     grid-template-columns: 1fr;
 }
 
-.barre{
-    top: 0;
-}
-
 /*************************HEADER*****************************************/
 
 header{
@@ -23,18 +19,18 @@ header{
     top: 0;
     right: 0;
     left: auto;
-    opacity: var(--opacity_fond_menu_burger);
+    opacity: var(--opacity_background_menu_burger);
     z-index: 1000;
 }
 
 .burger_ouvert, .burger_ferme{
     display: flex;
-    background-color: var(--fond_bouton_burger);
+    background-color: var(--background_bouton_burger);
     line-height: 2em;
     font-size: 2em;
     justify-content: center;
     align-items: center;
-    color: var(--traits_bouton_burger);
+    color: var(--font_bouton_burger);
     width: 2em;
     height: 2em;
     position: absolute;
@@ -43,12 +39,24 @@ header{
     transform: translateX(-50%) translateY(50%);
     border-radius: 10px 10px 10px 10px;
     transition: all 0.2s;
-    box-shadow: 0 0 0.4em var(--traits_bouton_burger) inset;
+    box-shadow: 0 0 0.4em var(--ombre_interne_bouton_burger) inset,
+    0 0 0.4em var(--ombre_externe_bouton_burger),
+    0 0 0.4em var(--ombre_externe_bouton_burger),
+    0 0 0.4em var(--ombre_externe_bouton_burger),
+    0 0 0.4em var(--ombre_externe_bouton_burger),
+    0 0 0.4em var(--ombre_externe_bouton_burger),
+    0 0 0.4em var(--ombre_externe_bouton_burger),
+    0 0 0.4em var(--ombre_externe_bouton_burger),
+    0 0 0.4em var(--ombre_externe_bouton_burger),
+    0 0 0.4em var(--ombre_externe_bouton_burger),
+    0 0 0.4em var(--ombre_externe_bouton_burger)
+    ;
 }
 
 .burger_ouvert:hover, .burger_ferme:hover{
-    background-color: var(--fond_bouton_burger_hover);
+    background-color: var(--background_bouton_burger_hover);
     box-shadow: none;
+    transform: translateX(-50%) translateY(50%) scale(0.90);
 }
 
 #menu:target{
@@ -75,6 +83,7 @@ nav a{
     text-decoration: none;
     color: var(--liens_menu);
     padding: 5px;
+    font-size: 1.5em;
 }
 
 nav:hover a:not(:hover){
