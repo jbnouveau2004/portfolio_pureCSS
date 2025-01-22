@@ -1,0 +1,15 @@
+@keyframes apparition {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+h1, hr, .logos, .presentation .card, details, .blog .card, .cv{
+    animation: apparition linear;
+    animation-timeline: view();
+    animation-range-start: cover 0%;
+    animation-range-end: contain 20%;
+}
