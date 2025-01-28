@@ -1,5 +1,7 @@
 :root{
     --barre_progression: #75B09C;
+    --barre_progression_text: #75B09C;
+    --barre_progression_text_ombre: black;
     --fond_scrollbar: #7c8ea2;
     --barre_scrollbar: #465362;
 
