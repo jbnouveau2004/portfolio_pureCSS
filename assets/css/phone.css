@@ -76,7 +76,6 @@ nav, .menu img{
 }
 
 nav{
-    /* margin-top: 0px; */
     display: flex;
     flex-direction: column;
 }
@@ -96,7 +95,8 @@ nav:hover a:not(:hover){
 }
 
 header img{
-    /* margin-left: 25px; */
     width: 80px;
     height: 80px;
 }
+
+/**********************************BLOG*****************************************/
