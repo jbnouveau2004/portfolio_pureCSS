@@ -14,7 +14,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-size: 24px;
+    font-size: clamp(10px, 3vw, 24px);
     font-family: roboto, sans-serif;
 }
 
@@ -24,7 +24,6 @@ header{
     display: flex;
     justify-content: center;
     height: 100px;
-    /* background-color: var(--background_menu); */
     position: fixed;
     top: 0;
     right: 0;
@@ -197,15 +196,14 @@ section.titre{
 }
 
 .presentation{
+    width: clamp(300px, 80vw, var(--largeur_max));
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-flow: row;
+    grid-template-columns: repeat(auto-fill, 300px);
     gap: 25px;
+    justify-content: center;
 }
 
 .presentation .card{
-    width: 300px;
-    /* outline: 1px solid black; */
     box-shadow: 0.4em 0.4em 0.4em var(--ombres_cards_realisation);
     background-color: var(--background_card_realisation);
 }
