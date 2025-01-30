@@ -282,6 +282,10 @@ details[open]{
     font-size: 1.5em;
 }
 
+.blog .card .resume{
+    font-size: 1em;
+}
+
 .blog .card a{
     display: inline-block;
     text-decoration: none;
