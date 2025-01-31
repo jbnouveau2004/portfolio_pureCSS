@@ -83,7 +83,7 @@ main{
 
 section{
     max-width: var(--largeur_max);
-    padding: 4em 2em 4em;
+    padding: 4em 1em 4em;
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -263,27 +263,49 @@ details[open]{
     opacity: var(--opacity_backround_sections_blog);
 }
 
-.blog .card{
-    padding: 20px;
+.accordeon{
+    display: flex;
+    justify-content: center;
+}
+
+.accordeon input{
+    visibility: hidden;
+}
+
+.accordeon label>.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.accordeon label>.card{
+    width: 100px;
+    height: 425px;
+    transition: all 0.5s;
+    cursor: zoom-in;
     box-shadow: 0.4em 0.4em 0.4em var(--ombre_cards_blog);
+    overflow: hidden;
+    display: block;
+    border-radius: 50px;
     font-family: serif;
+    background-color: var(--background_cards_blog);
 }
 
-.blog .card:nth-of-type(n){
-    background-color: var(--background_cards_blog_impaire);
-}
-
-.blog .card:nth-of-type(2n){
-    background-color: var(--background_cards_blog_paire);
+.accordeon input:checked + label>.card{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-radius: 0;
+    cursor: auto;
 }
 
 .blog .card .titre{
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
-.blog .card .resume{
-    font-size: 1em;
+.blog .card .resume, .blog .card a{
+    font-size: 0.75em;
 }
 
 .blog .card a{
@@ -291,7 +313,8 @@ details[open]{
     text-decoration: none;
     color: var(--font_boutons_cards_blog);
     height: 1.5em;
-    margin-top: 0.5em;
+    width: 6.75em;
+    margin: 0.5em;
     padding: 0.2em 0.4em 1.5em;
     border-radius: 0.4em;
     background-color: var(--background_boutons_cards_blog);

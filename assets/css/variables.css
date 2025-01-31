@@ -72,8 +72,7 @@
     --background_boutons_cards_blog: #967522;
     --background_boutons_cards_blog_hover: #c89c2d;
     --ombre_boutons_cards_blog: black;
-    --background_cards_blog_impaire: #5d6f83;
-    --background_cards_blog_paire: #7C8EA2;
+    --background_cards_blog: white;
 
     /*********************CV***************************/
     --background_sections_cv: rgba(255, 255, 255, 0);

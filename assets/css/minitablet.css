@@ -101,3 +101,28 @@ header img{
 }
 
 /**********************************BLOG*****************************************/
+
+.accordeon{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    gap: 25px;
+}
+
+.accordeon label>.card{
+    width: 250px;
+    cursor: auto;
+    border-radius: 0;
+    transition: none;
+}
+
+.accordeon input{
+    display: none;
+}
+
+.accordeon label>.card img{
+    height: auto;
+}
+
+.accordeon input:checked + label>.card{
+    display: block;
+}

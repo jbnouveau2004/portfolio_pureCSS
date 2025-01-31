@@ -7,7 +7,7 @@
     }
 }
 
-h1, hr, .logos, .presentation .card, details, .blog .card, .cv{
+h1, hr, .logos, .presentation .card, details, .cv{
     animation: apparition linear;
     animation-timeline: view();
     animation-range-start: cover 0%;
