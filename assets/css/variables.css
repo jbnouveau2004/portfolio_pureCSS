@@ -1,4 +1,6 @@
 :root{
+    --background_image_body: linear-gradient(160deg, #e4f1ec 0%, #98deec 50%, #ffffff 100%);
+    
     --barre_progression: #75B09C;
     --barre_progression_text: #75B09C;
     --barre_progression_text_ombre: black;
