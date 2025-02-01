@@ -269,7 +269,7 @@ details[open]{
 }
 
 .accordeon input{
-    visibility: hidden;
+    display: none;
 }
 
 .accordeon label>.card img{
@@ -280,7 +280,7 @@ details[open]{
 
 .accordeon label>.card{
     width: 100px;
-    height: 425px;
+    height: clamp(250px, calc(80vw / 1.5) ,425px);
     transition: all 0.5s;
     cursor: zoom-in;
     box-shadow: 0.4em 0.4em 0.4em var(--ombre_cards_blog);
@@ -289,6 +289,10 @@ details[open]{
     border-radius: 50px;
     font-family: serif;
     background-color: var(--background_cards_blog);
+}
+
+.accordeon label{
+    margin: 0 5px;
 }
 
 .accordeon input:checked + label>.card{
